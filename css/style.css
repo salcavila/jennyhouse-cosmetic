@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.list-unstyled li a {
+  color: white;
+}
+
+.list-unstyled li a:hover {
+  color: #eea0af;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eea0af;
+}
+
+.medsos {
+  padding: 5px 0;
+  background-color: #9a4d30;
+}
+.medsos ul li {
+  display: inline-block;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #eea0af;
+}
+
+.seller {
+  background-color: #f3f4f8;
+  border-radius: 25px;
+  border: none;
+}
+
+.seller:hover {
+  background-color: #ecedf1de;
+}
+
+/* footer */
+footer {
+  background-color: #9a4d30;
+  text-align: center;
+  padding: 1rem 0 1rem;
+  margin-top: 3rem;
+  bottom: 0;
+  position: relative;
+  width: 100%;
+}
+
+footer .socials {
+  padding: 1rem 0;
+}
+
+footer .socials a {
+  color: white;
+  margin: 1rem;
+  display: inline-block;
+}
+
+footer .socials a:hover,
+footer .links a:hover {
+  color: #eea0af;
+}
+footer .links {
+  margin-bottom: 1.4rem;
+}
+
+footer .links a {
+  color: #282626;
+  padding: 0.7rem 1rem;
+}
+
+.btn-primary {
+  background-color: #eea0af;
+  border: none;
+  border-radius: 25px;
+}
+
+.btn-primary:hover {
+  background-color: #db8999;
+}
+.btn-primary:focus {
+  background-color: #db8999;
+}
+
+.btn-outline-primary {
+  border-color: #db8999;
+  color: #db8999;
+  border-radius: 25px;
+}
+
+.btn-outline-primary:hover {
+  background-color: #db8999;
+  border-color: #db8999;
+}
+/* Media Queries */
+
+/* Laptop */
+/* @media (max-width: 1336px) {
+  html {
+    font-size: 75%;
+  }
+} */
+
+/* Tablet */
+/* @media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+} */
+/* Mobile */
+/* @media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+} */

@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jenny House | Products</title>
+    <!-- js  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css\style.css" />
+    <style>
+      /* font Poppins */
+      @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+      .btn-primary {
+        background-color: #eea0af;
+        border: none;
+        border-radius: 20px;
+      }
+
+      .btn-primary:hover {
+        background-color: #db8999;
+      }
+      .btn-primary:focus {
+        background-color: #db8999;
+      }
+      .card {
+        border-radius: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- loader -->
+    <div class="bg-loader">
+      <div class="loader"></div>
+    </div>
+
+    <!-- header -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light p-4 d-none d-md-block d-xl-block d-xxl-block"
+    >
+      <img
+        src="img/Jennyhouse.png"
+        class="mx-auto d-block"
+        width="190.39"
+        height="40"
+        alt="Jennyhouse"
+        l
+        oading="lazy"
+      />
+    </nav>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><span role="img" aria-label="Logo of Jennyhouse">
+            <img
+              src="img/Jennyhouse.png"
+              class="img img-fluid d-none d-md-block d-sm-block d-xs-block d-xs-block d-lg-none"
+              width="100"
+              height="40"
+              alt="Jennyhouse"
+              l
+              oading="lazy" /></span
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="product.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="location.html">Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- product -->
+    <section id="product">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="row">
+            <div class="col-2 d-none d-xl-block">
+              <!-- kategori starts -->
+              <div class="card shadow">
+                <div class="card-body">
+                  <!-- accordion starts -->
+                  <div
+                    class="accordion accordion-flush"
+                    id="accordionFlushExample"
+                  >
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          <h6>Kategori</h6>
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseOne"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div class="accordion-body">
+                          <p>
+                            <a href="" style="text-decoration: none"
+                              >Perawatan rambut</a
+                            >
+                          </p>
+                          <p>
+                            <a href="" style="text-decoration: none"
+                              >Kosmetik</a
+                            >
+                          </p>
+                          <p>
+                            <a href="" style="text-decoration: none"
+                              >Pewarna rambut</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- accordion ends -->
+                  <div class="list-group">
+                    <a href="" class="list-group-item border-0">Produk baru</a>
+                    <a href="" class="list-group-item border-0"
+                      >Sedang diskon</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- kategori ends -->
+            </div>
+            <div class="col-10">
+              <!-- produk list start -->
+              <div class="container-fluid px-5">
+                <div class="row justify-content-center">
+                  <!-- product start -->
+                  <div class="col-xl-4 col-md-6 mb-5">
+                    <div class="card product-tile shadow">
+                      <img
+                        src="img/Hydrokeratin Curl Serum [150ml].png"
+                        class="card-img-top"
+                        alt="Product 1"
+                        style="
+                          border-top-right-radius: 2em;
+                          border-top-left-radius: 2em;
+                        "
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Hydrokeratin Curl Serum [150ml]
+                        </h5>
+                        <p class="card-text">
+                          <small
+                            >Diformulasikan khusus untuk masalah rambut rontok,
+                            kering, rusak, ujung bercabang akibat pewarnaan dan
+                            styling.</small
+                          >
+                        </p>
+                        <p style="color: rgb(253, 200, 55)">
+                          <i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star-half"></i>
+                        </p>
+                        <a
+                          href="https://shopee.co.id/Jenny-House-Hydrokeratin-Curl-Serum-150-ML-Memudahkan-Styling-Rambut-curly-rambut-Meluruskan-rambut-Salon-Korea-i.273510696.5277110187?sp_atk=aff1aa7b-94f7-4bdb-bcd3-29095ad1f3cd&xptdk=aff1aa7b-94f7-4bdb-bcd3-29095ad1f3cd"
+                          target="_blank"
+                          class="btn btn-primary"
+                          ><i class="fas fa-shopping-bag"></i> Rp 383.150
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- product end -->
+                  <!-- product start -->
+                  <div class="col-xl-4 col-md-6 mb-5">
+                    <div class="card product-tile shadow">
+                      <img
+                        src="img/Hydrokeratin Curl Serum [150ml].png"
+                        class="card-img-top"
+                        alt="Product 1"
+                        style="
+                          border-top-right-radius: 2em;
+                          border-top-left-radius: 2em;
+                        "
+                        style="
+                          border-top-right-radius: 2em;
+                          border-top-left-radius: 2em;
+                        "
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Hydrokeratin Curl Serum [150ml]
+                        </h5>
+                        <p class="card-text">
+                          <small
+                            >Diformulasikan khusus untuk masalah rambut rontok,
+                            kering, rusak, ujung bercabang akibat pewarnaan dan
+                            styling.</small
+                          >
+                        </p>
+                        <p style="color: rgb(253, 200, 55)">
+                          <i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star-half"></i>
+                        </p>
+                        <a
+                          href="https://shopee.co.id/Jenny-House-Hydrokeratin-Curl-Serum-150-ML-Memudahkan-Styling-Rambut-curly-rambut-Meluruskan-rambut-Salon-Korea-i.273510696.5277110187?sp_atk=aff1aa7b-94f7-4bdb-bcd3-29095ad1f3cd&xptdk=aff1aa7b-94f7-4bdb-bcd3-29095ad1f3cd"
+                          target="_blank"
+                          class="btn btn-primary"
+                          ><i class="fas fa-shopping-bag"></i> Rp 383.150
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- product end -->
+                  <!-- product start -->
+                  <div class="col-xl-4 col-md-6 mb-5">
+                    <div class="card product-tile shadow">
+                      <img
+                        src="img/Self-Up Volume Treatment [230ml] (1).png"
+                        class="card-img-top"
+                        alt="Product 1"
+                        style="
+                          border-top-right-radius: 2em;
+                          border-top-left-radius: 2em;
+                        "
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Self-Up Volume Treatment [230ml]
+                        </h5>
+                        <p class="card-text">
+                          <small>
+                            Meningkatkan volume rambut langsung dari akar dan
+                            dapat membantu mengurangi kerontokan rambut.</small
+                          >
+                        </p>
+                        <p style="color: rgb(253, 200, 55)">
+                          <i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star-half"></i>
+                        </p>
+                        <a
+                          href="https://shopee.co.id/Jenny-House-Hydrokeratin-Curl-Serum-150-ML-Memudahkan-Styling-Rambut-curly-rambut-Meluruskan-rambut-Salon-Korea-i.273510696.5277110187?sp_atk=aff1aa7b-94f7-4bdb-bcd3-29095ad1f3cd&xptdk=aff1aa7b-94f7-4bdb-bcd3-29095ad1f3cd"
+                          target="_blank"
+                          class="btn btn-primary"
+                          ><i class="fas fa-shopping-bag"></i> Rp 383.150
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- product end -->
+                  <!-- product start -->
+                  <div class="col-xl-4 col-md-6 mb-5">
+                    <div class="card product-tile shadow">
+                      <img
+                        src="img/Hydrokeratin Curl Serum [150ml].png"
+                        class="card-img-top"
+                        alt="Product 1"
+                        style="
+                          border-top-right-radius: 2em;
+                          border-top-left-radius: 2em;
+                        "
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Hydrokeratin Leave-in Angeling Cream [150ml]
+                        </h5>
+                        <p class="card-text">
+                          <small
+                            >Diformulasikan untuk menutrisi dan memperbaiki
+                            tekstur rambut agar lebih sehat dan lembut.</small
+                          >
+                        </p>
+                        <p style="color: rgb(253, 200, 55)">
+                          <i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star-half"></i>
+                        </p>
+                        <a
+                          href="https://shopee.co.id/Jenny-House-Hydrokeratin-Curl-Serum-150-ML-Memudahkan-Styling-Rambut-curly-rambut-Meluruskan-rambut-Salon-Korea-i.273510696.5277110187?sp_atk=aff1aa7b-94f7-4bdb-bcd3-29095ad1f3cd&xptdk=aff1aa7b-94f7-4bdb-bcd3-29095ad1f3cd"
+                          target="_blank"
+                          class="btn btn-primary"
+                          ><i class="fas fa-shopping-bag"></i> Rp 383.150
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- product end -->
+                  <!-- product start -->
+                  <div class="col-xl-4 col-md-6 mb-5">
+                    <div class="card product-tile shadow">
+                      <img
+                        src="img/Root Volume Fixer [95ml].png"
+                        class="card-img-top"
+                        alt="Product 1"
+                        style="
+                          border-top-right-radius: 2em;
+                          border-top-left-radius: 2em;
+                        "
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Root Volume Fixer [95ml] Semprotan Rambut
+                        </h5>
+                        <p class="card-text">
+                          <small
+                            >Formulanya yang ringan membuat rambut tertata alami
+                            dan tidak memberikan efek lengket.</small
+                          >
+                        </p>
+                        <p style="color: rgb(253, 200, 55)">
+                          <i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star-half"></i>
+                        </p>
+                        <a
+                          href="https://shopee.co.id/Jenny-House-Hydrokeratin-Curl-Serum-150-ML-Memudahkan-Styling-Rambut-curly-rambut-Meluruskan-rambut-Salon-Korea-i.273510696.5277110187?sp_atk=aff1aa7b-94f7-4bdb-bcd3-29095ad1f3cd&xptdk=aff1aa7b-94f7-4bdb-bcd3-29095ad1f3cd"
+                          target="_blank"
+                          class="btn btn-primary"
+                          ><i class="fas fa-shopping-bag"></i> Rp 395.000
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- product end -->
+                  <!-- product start -->
+                  <div class="col-xl-4 col-md-6 mb-5">
+                    <div class="card product-tile shadow">
+                      <img
+                        src="img/Hydrokeratin Repair Ampoule [100ml] (1).png"
+                        class="card-img-top"
+                        alt="Product 1"
+                        style="
+                          border-top-right-radius: 2em;
+                          border-top-left-radius: 2em;
+                        "
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Hydrokeratin Repair Ampoule [100ml]
+                        </h5>
+                        <p class="card-text">
+                          <small
+                            >Diformulasikan khusus untuk rambut rontok, rambut
+                            kering, bercabang rusak akibat pewarnaan dan
+                            penataan.</small
+                          >
+                        </p>
+                        <p style="color: rgb(253, 200, 55)">
+                          <i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                          ><i class="fas fa-star-half"></i>
+                        </p>
+                        <a
+                          href="https://shopee.co.id/Jenny-House-Hydrokeratin-Curl-Serum-150-ML-Memudahkan-Styling-Rambut-curly-rambut-Meluruskan-rambut-Salon-Korea-i.273510696.5277110187?sp_atk=aff1aa7b-94f7-4bdb-bcd3-29095ad1f3cd&xptdk=aff1aa7b-94f7-4bdb-bcd3-29095ad1f3cd"
+                          target="_blank"
+                          class="btn btn-primary"
+                          ><i class="fas fa-shopping-bag"></i> Rp 383.150
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- product end -->
+                </div>
+              </div>
+              <!-- product list end -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product end -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img
+              src="img/Jennyhouse.png"
+              class="d-block"
+              width="190.39"
+              height="40"
+              alt="Jennyhouse"
+              loading="lazy"
+              style="margin-top: 1rem"
+            />
+          </div>
+          <div class="col">
+            <div class="socials float-end">
+              <a href="#"> <i data-feather="facebook"></i></a>
+              <a href="#"> <i data-feather="youtube"></i></a>
+              <a href="#"> <i data-feather="instagram"></i></a>
+              <a href="#"> <i data-feather="twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- menu footer starts -->
+        <div class="row" style="color: white">
+          <div class="col-lg-2 col-md-4 mb-3" style="text-align: left">
+            <p class="h6" style="font-weight: 500">About Us</p>
+            <ul class="list-unstyled">
+              <li class="small"><a href="">Cerita Brand</a></li>
+              <li class="small"><a href="">Sub Brands</a></li>
+              <li class="small"><a href="">Salon</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4 mb-3" style="text-align: left">
+            <p class="h6" style="font-weight: 500">Products</p>
+            <ul class="list-unstyled">
+              <li class="small"><a href="">Perawatan rambut</a></li>
+              <li class="small"><a href="">Kosmetik</a></li>
+              <li class="small"><a href="">Pewarna rambut</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4 mb-3" style="text-align: left">
+            <p class="h6" style="font-weight: 500">Seller</p>
+            <ul class="list-unstyled">
+              <li class="small"><a href="">Temukan dengan map</a></li>
+              <li class="small"><a href="">Temukan dengan ID</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4 mb-3" style="text-align: left">
+            <p class="h6" style="font-weight: 500">Media</p>
+            <ul class="list-unstyled">
+              <li class="small"><a href="">Youtube series</a></li>
+              <li class="small"><a href="">Celeb weddings</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4 mb-3" style="text-align: left">
+            <p class="h6" style="font-weight: 500">Contact Us</p>
+            <ul class="list-unstyled">
+              <li class="small"><a href="">Customer care</a></li>
+              <li class="small"><a href="">Public relations</a></li>
+              <li class="small"><a href="">Legal</a></li>
+              <li class="small"><a href="">Join seller</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4 mb-3" style="text-align: left">
+            <p class="h6" style="font-weight: 500">Help Desk</p>
+            <ul class="list-unstyled">
+              <li class="small"><a href="">FAQs</a></li>
+              <li class="small"><a href="">Terms and Condition</a></li>
+              <li class="small"><a href="">Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- menu footer ends -->
+      </div>
+
+      <div class="credit" style="color: white">
+        <p>Copyright &copy; PT. Distrindo Kosmeta Utama</p>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- feather icon -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
